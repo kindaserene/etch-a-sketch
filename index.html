@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Etch-a-Sketch</h1>
+    </header>
+
+    <main>
+        <label for="grid-slider">Grid Size: <span id="grid-value">16</span></label>
+        <input type="range" id="grid-slider" min="4" max="64" value="16">
+        <button id="grid-size">Grid Size Picker</button>    
+        <div id="grid-container"></div>
+    </main>
+
+    <footer></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
