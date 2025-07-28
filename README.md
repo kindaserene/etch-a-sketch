@@ -14,11 +14,10 @@ A digital drawing pad built with vanilla HTML, CSS, and JavaScript. Draw with ra
 ## How to Use
 
 1. Adjust grid size with slider
-2. Click "Grid Size Picker" to apply
+2. Click "Grid Size Picker" to reset the current view apply the selected grid size
 3. Click and drag to draw
 
 ## Technologies
 
 - HTML5, CSS3, JavaScript
 - Flexbox layout
-- Google Fonts (Silkscreen)
